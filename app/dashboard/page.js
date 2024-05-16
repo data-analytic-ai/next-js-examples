@@ -1,7 +1,10 @@
-import React from 'react'
+import React from 'react';
+import Header from '../dashboard/components/header';
 
 export default function Page() {
     return (
-        <h1>Dashboard</h1>
-    )
+        <div>
+            <Header />
+        </div>
+    );
 }
