@@ -1,12 +1,13 @@
-import PageHeader from "@/components/PageHeader";
+import Header from "@/app/components/header";
+import React from "react";
+import {AppRouterCacheProvider} from "@mui/material-nextjs/v13-appRouter";
 
 export default function Layout({children}) {
     return (
-        <>
-            <h1>second layout</h1>
-            {/*<PageHeader className="mt-8" />*/}
-            {/*<main>{children}</main>*/}
-            {/*<footer>Footer</footer>*/}
-        </>
-    )
+        <AppRouterCacheProvider><>
+            <Header />
+            <main>{children}</main>
+        </> </AppRouterCacheProvider>
+
+        )
 }

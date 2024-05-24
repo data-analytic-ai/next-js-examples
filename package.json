@@ -17,11 +17,13 @@
     "@mui/material": "^5.15.18",
     "@mui/material-nextjs": "^5.15.11",
     "@mui/styled-engine-sc": "^6.0.0-alpha.18",
+    "@mui/system": "^5.15.15",
     "docs": "^0.3.2-canary.0",
     "highlighted-code": "^0.3.7",
     "next": "14.2.3",
     "react": "^18",
     "react-dom": "^18",
+    "react-hook-form": "^7.51.5",
     "styled-components": "^6.1.11"
   },
   "devDependencies": {
