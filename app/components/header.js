@@ -33,7 +33,7 @@ export default function Header() {
                         color="inherit"
                         aria-label="menu"
                         sx={{ mr: 2 }}
-                        onClick={handleClick} // Llamamos a la función para abrir el menú cuando se hace clic
+                            onClick={handleClick}
                     >
                         <MenuIcon />
                     </IconButton>
