@@ -1,11 +1,11 @@
 import React from 'react';
 import Header from '@/app/components/header';
-import Gridsection from './components/gridsection';
+import GridSection from '@/app/components/GridSection';
 function Home() {
     return (
         <div>
             <Header />
-            <Gridsection />
+            <GridSection />
         </div>
     );
 }
